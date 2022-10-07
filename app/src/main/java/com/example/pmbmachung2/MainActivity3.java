@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
@@ -30,6 +32,14 @@ public class MainActivity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+//        progstud = (Spinner) findViewById(R.id.spinner);
+//        ArrayAdapter<CharSequence> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, programstudi);
+//        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//        progstud.setAdapter(adapter);
+//        progstud.setOnItemSelectedListener((AdapterView.OnItemSelectedListener) this);
+//        String selection = "Sistem Informasi";
+//        int spinposisi = adapter.getPosition(selection);
+//        progstud.setSelection(spinposisi);
     }
     @Override
     public void finish() {
