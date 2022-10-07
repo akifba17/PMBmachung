@@ -4,6 +4,342 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity4">
+    android:background="@drawable/gradient_background2"
 
+    tools:context=".MainActivity4">
+    <ScrollView
+        android:layout_width="373dp"
+        android:layout_height="671dp"
+        android:background="#2DFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/myactt4"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+
+                    android:id="@+id/chkbox_instaa"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40sp"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Instagram"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/chkbox_web"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Website"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chkbox_BK"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40sp"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Guru BK"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/chkbox_edufair"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Edufair"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chkbox_presentasi"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40sp"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Presentasi di Kelas"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/chkbox_ortu"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Orangtua"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chkbox_teman"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40sp"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Teman/Saudara"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/chkbox_koranradio"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Koran/Radio"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chkbox_brosur"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40sp"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Brosur"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/chkbox_beasiswa"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Promosi Beasiswa"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chkbox_baliho"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40sp"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Baliho"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/chkbox_googleads"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:checked="false"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Google Ads"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chkbox_iklnbioskop"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40sp"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Iklan di Bioskop"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/chkbox_youtube"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:text="Youtube"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="110sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:text="Nama Lengkap "
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": "
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/txtnama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="110sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:text="No Handphone"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": "
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/txthp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="110sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:text="Tahun Lulus :"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": "
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/txtlulus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="110sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:text="Email (Aktif) :"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": "
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/txtemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
