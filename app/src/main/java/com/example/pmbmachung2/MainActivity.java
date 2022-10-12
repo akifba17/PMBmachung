@@ -15,13 +15,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void pindahmainact2(View view) {
-        Intent intent = new Intent(this, MainActivity2.class);
+        Intent intent = new Intent(this, Loading.class);
         startActivity(intent);
         overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+
     }
     @Override
     public void finish() {
         super.finish();
         overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
     }
+
+
 }
