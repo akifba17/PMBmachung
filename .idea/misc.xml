@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Akif Balya/AndroidStudioProjects/PMBMachung2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/Akif Balya/AndroidStudioProjects/PMBMachung2/app/src/main/res/drawable/backgroudn_form.xml" value="0.2555" />
+        <entry key="..\:/Users/Akif Balya/AndroidStudioProjects/PMBMachung2/app/src/main/res/drawable/ic_baseline_elderly_24.xml" value="0.123" />
+        <entry key="..\:/Users/Akif Balya/AndroidStudioProjects/PMBMachung2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/Akif Balya/AndroidStudioProjects/PMBMachung2/app/src/main/res/layout/activity_main.xml" value="0.13496376811594202" />
+        <entry key="..\:/Users/Akif Balya/AndroidStudioProjects/PMBMachung2/app/src/main/res/layout/activity_main3.xml" value="0.8" />
       </map>
     </option>
   </component>

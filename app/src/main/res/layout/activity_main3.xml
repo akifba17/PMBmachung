@@ -210,7 +210,7 @@
                     android:layout_marginLeft="20sp"
                     android:ems="10"
                     android:hint="Asal Jurusan / Asal Program Studi"
-                    android:inputType="number"
+                    android:inputType="text"
                     android:maxLength="4"
                     android:textColor="@color/black"
                     android:textColorHint="@android:color/darker_gray"
@@ -232,7 +232,7 @@
                     android:layout_marginLeft="20sp"
                     android:ems="10"
                     android:hint="Nama Asal Fakultas"
-                    android:inputType="number"
+                    android:inputType="text"
                     android:maxLength="4"
                     android:textColor="@color/black"
                     android:textColorHint="@android:color/darker_gray"
@@ -254,7 +254,7 @@
                     android:layout_marginLeft="20sp"
                     android:ems="10"
                     android:hint="Nama Asal Universitas"
-                    android:inputType="number"
+                    android:inputType="text"
                     android:maxLength="4"
                     android:textColor="@color/black"
                     android:textColorHint="@android:color/darker_gray"
@@ -267,7 +267,7 @@
                 android:layout_height="178dp"
                 android:layout_marginTop="10sp"
                 android:orientation="vertical"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <Spinner
                     android:id="@+id/spinner"
@@ -292,7 +292,7 @@
                     android:layout_marginLeft="20sp"
                     android:ems="10"
                     android:hint="Asal Sekolah Anda"
-                    android:inputType="number"
+                    android:inputType="text"
                     android:maxLength="4"
                     android:textColor="@color/black"
                     android:textColorHint="@android:color/darker_gray"
