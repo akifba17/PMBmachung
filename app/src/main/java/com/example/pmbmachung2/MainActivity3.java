@@ -15,6 +15,10 @@ public class MainActivity3 extends AppCompatActivity {
     String[] programstudi = {"Sistem Informasi","Teknik Industri","Teknik Informatika","Desain Komunikasi Viual","Farmasi"};
     Spinner progstud;
     public static String nama,nohp,thnlulus,email;
+
+
+
+
     private void kirimstring(){
         EditText namaa = (EditText) findViewById(R.id.editTextTextPersonName13);
         EditText hpp = (EditText) findViewById(R.id.editTextTextPersonName14);
@@ -50,7 +54,7 @@ public class MainActivity3 extends AppCompatActivity {
 
     public void pindahmainact(View view) {
         kirimstring();
-        Intent intent = new Intent(this, MainActivity4.class);
+        Intent intent = new Intent(this,Loading.class);
         startActivity(intent);
         overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
     }
